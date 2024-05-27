@@ -1,11 +1,11 @@
 import React from 'react'
+import Kuba from "../../assets/kuba.jpg"
 
 const HomePage = () => {
   return (
     <div className='text-center'>
-      <p>Пример приложения</p>
-      <p className='text-xl'>"Карманный доктор"</p>
-      <p className='text-sm'>P.S. Куба, название запатентовано мной, если понравилось, могу продать )))))</p>
+      <p className='text-xl'>"Карманный доктор / Pocket Doc"</p>
+      <img src={Kuba} alt="" />
     </div>
   )
 }
